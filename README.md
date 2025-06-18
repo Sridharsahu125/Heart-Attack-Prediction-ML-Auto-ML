@@ -1,90 +1,53 @@
-# Heart-Attack-Prediction-ML-Auto-ML
-Heart attack risk prediction using traditional ML models and H2O AutoML on clinical data.
+🫀 Heart Attack Prediction (ML + AutoML)
+🔍 Overview
+This project predicts the risk of a heart attack using both traditional machine learning models and H2O AutoML. It aims to assist in early diagnosis based on clinical data like age, cholesterol, chest pain, etc.
 
-🫀 Heart Attack Prediction using Machine Learning and AutoML (H2O)
-📌 Project Overview
-This project aims to predict the likelihood of a heart attack using various machine learning models and an automated ML framework — H2O AutoML. The goal is to build a reliable and interpretable system that can assist in early identification of heart disease risk based on patient health parameters.
+📊 Dataset: heart.csv
 
-🎯 Objective
-To develop and compare traditional ML models with H2O's AutoML tool to:
+💻 Code: Notebook
 
-Predict heart attack chances based on clinical data
+🧰 Tech Stack
+Python, Pandas, NumPy
 
-Improve accuracy and model efficiency
+Matplotlib, Seaborn
 
-Identify the most important risk factors (features)
+Scikit-learn (ML Models)
 
-🗃️ Dataset Details
-Source: [Kaggle / UCI Heart Disease Dataset]
+H2O AutoML
 
-Rows: 303
+Google Colab
 
-Columns: 14 features (age, sex, chest pain type, cholesterol, blood pressure, etc.)
+📈 Models Used
+Type	Models
+Traditional ML	Logistic Regression, Random Forest, SVM, etc.
+AutoML	H2O (GBM, XGBoost, Ensemble, etc.)
 
-Target Variable: target (1 = heart disease, 0 = no heart disease)
+🔥 Best Model: H2O Stacked Ensemble
 
-🧪 Tools & Technologies Used
-Languages: Python
+🎯 Accuracy: ~87% | AUC: 0.92
 
-Libraries:
+💡 Key Insights
+Features like age, cholesterol, chest pain type are strong indicators.
 
-Pandas, NumPy (Data manipulation)
+AutoML simplifies model selection and tuning.
 
-Matplotlib, Seaborn (EDA and visualization)
+Traditional models also performed well with proper tuning.
 
-Scikit-learn (ML algorithms)
+🚀 How to Use
+Open the notebook in Google Colab
 
-H2O AutoML (automated ML training and leaderboard)
+Run all cells
 
-Environment: Google Colab
+AutoML block will generate a leaderboard of best models
 
-🔍 Exploratory Data Analysis (EDA)
-Performed EDA to understand:
+✨ Future Work
+Streamlit app for live prediction
 
-Distribution of heart attack risk across gender and age groups
+Model deployment on Heroku or AWS
 
-Correlation between features like cholesterol, blood pressure, and heart attack
+Larger dataset for more generalization
 
-Outlier analysis and missing value handling
-
-📊 Models Used
-✅ Traditional ML Models:
-Logistic Regression
-
-Decision Tree
-
-Random Forest
-
-Gradient Boosting
-
-Support Vector Machine
-
-🤖 AutoML Model:
-H2O AutoML Leaderboard used to find the best model automatically from:
-
-GBM, XGBoost, Deep Learning, Stacked Ensembles, etc.
-
-🏆 Best Performing Model
-Model Name: Stacked Ensemble (from H2O AutoML)
-
-Accuracy: 87.5%
-
-AUC Score: 0.92
-
-Feature Importance: Age, Chest Pain Type, Cholesterol, etc.
-
-📌 Key Takeaways
-AutoML (H2O) can automatically select the best model and hyperparameters
-
-Traditional models like Random Forest and Gradient Boosting also performed well
-
-Combining domain knowledge with AutoML gives strong results
-
-📂 Project Structure
-bash
-Copy
-Edit
-📁 Heart_Attack_Prediction/
-├── Heart_attact_Prediction.ipynb   # Jupyter notebook with all code
-├── README.md                       # Project documentation
-├── requirements.txt                # Python libraries
+🙋‍♂️ Author
+Sridhar Sahu
+ML Specialist 
+GitHub
