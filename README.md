@@ -1,53 +1,72 @@
+
 🫀 Heart Attack Prediction (ML + AutoML)
+
+
 🔍 Overview
-This project predicts the risk of a heart attack using both traditional machine learning models and H2O AutoML. It aims to assist in early diagnosis based on clinical data like age, cholesterol, chest pain, etc.
+This project predicts the risk of a heart attack using both traditional machine learning models and H2O AutoML. It helps in early diagnosis using clinical features like age, cholesterol, chest pain type, etc.
 
-📊 Dataset: heart.csv
 
-💻 Code: Notebook
+
+Dataset: https://github.com/Sridharsahu125/Heart-Attack-Prediction-ML-Auto-ML/blob/main/heart.csv
+
+Code: https://github.com/Sridharsahu125/Heart-Attack-Prediction-ML-Auto-ML/blob/main/Heart_attact_Prediction.ipynb
+
+
 
 🧰 Tech Stack
 Python, Pandas, NumPy
 
 Matplotlib, Seaborn
 
-Scikit-learn (ML Models)
+Scikit-learn (ML models)
 
 H2O AutoML
 
 Google Colab
 
+
+
 📈 Models Used
 Type	Models
 Traditional ML	Logistic Regression, Random Forest, SVM, etc.
-AutoML	H2O (GBM, XGBoost, Ensemble, etc.)
+AutoML	H2O AutoML (GBM, XGBoost, Ensemble, etc.)
 
-🔥 Best Model: H2O Stacked Ensemble
+Best Model: H2O Stacked Ensemble
 
-🎯 Accuracy: ~87% | AUC: 0.92
+Accuracy: ~87%
+
+AUC Score: 0.92
+
+
 
 💡 Key Insights
-Features like age, cholesterol, chest pain type are strong indicators.
+Important features: age, cholesterol, chest pain type
 
-AutoML simplifies model selection and tuning.
+AutoML saves time by selecting and tuning the best model
 
-Traditional models also performed well with proper tuning.
+Traditional models also gave good performance with proper tuning
+
+
 
 🚀 How to Use
-Open the notebook in Google Colab
+Download the notebook file and dataset
 
-Run all cells
+Open it in Google Colab or Jupyter Notebook
 
-AutoML block will generate a leaderboard of best models
+Run all cells and check the AutoML leaderboard for best results
+
+
 
 ✨ Future Work
-Streamlit app for live prediction
+Build a Streamlit or Flask app for predictions
 
-Model deployment on Heroku or AWS
+Deploy model on cloud platforms (Heroku, AWS)
 
-Larger dataset for more generalization
+Use more data for improved model accuracy
+
+
 
 🙋‍♂️ Author
 Sridhar Sahu
-ML Specialist 
-GitHub
+ML Specialist
+GitHub: https://github.com/Sridharsahu125
